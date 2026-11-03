@@ -1,18 +1,9 @@
-// status can be "online", "idle", "dnd", or "invisible" or "offline"
-require('dotenv').config(); // لضمان قراءة التوكن من ملف .env
-
-module.exports = {
-    channelId: "1267849340324291000",
-    serverId: "1011820688220795020",
-    token: process.env.token,
-    selfDeaf: false,
-    autoReconnect: {
-        enabled: true,
-        delay: 5, // ثواني
-        maxRetries: 5,
-    },
-    presence: {
-        status: "idle",
-    },
-    selfMute: true,
-};
+{
+  "token": "ضع_توكن_البوت_هنا",
+  "prefix": "!",
+  "welcomeChannelId": "1489504448018645103",
+  "logChannelId": "1557772584781746288",
+  "applyChannelId": "1521928410405011562",
+  "ticketCategoryId": "1489504455954141326",
+  "supportRoleId": "1489504411251249172"
+}
