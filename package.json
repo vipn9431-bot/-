@@ -1,1 +1,17 @@
+{
+  "name": "m7r-voice-bot",
+  "version": "1.0.0",
+  "description": "24/7 Voice Bot for Discord",
+  "main": "discord.js",
+  "type": "module",
+  "scripts": {
+    "start": "node discord.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "@discordjs/voice": "^0.17.0",
+    "dotenv": "^16.4.5",
+    "libsodium-wrappers": "^0.7.13"
+  }
+}
 
