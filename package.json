@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "24/7 Voice Bot for Discord",
   "main": "discord.js",
-  "type": "module",
   "scripts": {
     "start": "node discord.js"
   },
@@ -14,4 +13,3 @@
     "libsodium-wrappers": "^0.7.13"
   }
 }
-
